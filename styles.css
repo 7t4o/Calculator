@@ -6,12 +6,8 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-button:focus,
-input:focus,
-select:focus,
-textarea:focus {
-    outline: none;
-    box-shadow: none;
+div.btn:active, div.reset:active {
+    -webkit-tap-highlight-color: transparent;
 }
 
 body {
@@ -24,7 +20,7 @@ body {
 
 .container {
     width: 392px;
-    height: 600px;
+    height: 610px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
